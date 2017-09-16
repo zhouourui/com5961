@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="News.css" rel="stylesheet" type="text/css">
+    <meta charset= "UTF-8">
+	<title>News</title>
+
+<script type="text/javascript">
+	window.onbeforeunload=function(){
+
+    return "你确定要离开吗";
+
+}
+//onbeforeUnload =alert("Goodbye!")
+
+	function sidebar2_onMouseOver() {
+		var sidebar2 =document.getElementById("sidebar2");
+		sidebar2.className ="newStyle";
+		sidebar2.innerHTML = "<h2> Be yourself</h2><p>Always aim for the best! </p>";
+	}
+
+	function sidebar2_onMouseOut() {
+		var sidebar2 =document.getElementById("sidebar2");
+		sidebar2.className ="defaultStyle";
+		sidebar2.innerHTML = "<h2> Be yourself</h2><p>See what can be shown here.</p>";
+	}
+
+	//var x =document.createElement('div');
+	//x.innerHTML = '<h2>Be yourself</h2><p>Hello World</p>';
+	//x.className = 'mystyle';
+       	 
+</script>
+
+
+
+
+</head>
+<body>
+ <HEADER class="banner"><h1>News</h1>
+ <p>Local and National News</p></HEADER>
+
+ <nav>
+ <ul id="navlist">
+ 	<li><a href="Home.html"  onmouseover="sidebar2_onMouseOver()" onmouseout="sidebar2_onMouseOut()">Home</a></li>
+    <li><a href="Archives.html" onmouseover="sidebar2_onMouseOver()" onmouseout="sidebar2_onMouseOut()">Archives</a></li>
+    <li><a href="About.html" onmouseover="sidebar2_onMouseOver()" onmouseout="sidebar2_onMouseOut()">About</a></li>
+ </ul>
+ </nav>
+ 
+ <main>
+ <section>
+ 	<header><h2 id="Local">Local News</h2>
+
+ 	</header>
+ 	
+ 	<article>
+ 		<h3>Fire fighter rescue man from building</h3>
+ 	    <p>(author,date)</p>
+ 		<p>This is the story text. This is the story text.</p>
+ 		<p>This is the story text. This is the story text.</p>
+ 	</article>
+ 	
+ 	<article>
+ 	 	<h3>New Library to be built</h3>
+ 	 	<p>(author,date)</p>
+ 		<p>This is the story text. This is the story text.</p>
+ 		<p>This is the story text. This is the story text.</p>
+ 	</article>
+ </section>
+
+ <section>
+ 	<HEADER><H2>National News</H2></HEADER>
+ 	<article>
+ 		<h3>Snow storm is making travl more difficult</h3>
+ 		<p>(author, date)</p>
+ 		<p>This is the story text. This is the story text.</p>
+ 		<p>This is the story text. This is the story text.</p>
+ 	</article>
+
+ 	<article>
+ 		<header><h3>Thousands are without power</h3></header>
+ 		<p>(author, date)</p>
+ 		<p>This is the story text. This is the story text.</p>
+ 		<p>This is the story text. This is the story text.</p>
+ 	</article>
+ </section>
+ </main>
+
+
+<aside>
+	<h2>Be a news reporter</h2>
+	<p>If you see news happening - Send us a Text.</p>
+</aside>
+
+
+
+<div id="sidebar2" class="defaultStyle">
+	<h2>Be yourself</h2>
+	<p>See what can be shown here.</p>
+</div>
+
+
+<footer>
+	Footer Information
+</footer>
+<script scr="math_function.js" type="text/javascript"></script>
+
+
+</body>
+</html>
