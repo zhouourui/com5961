@@ -1,7 +1,7 @@
-http://dev-com-5961-zhou.pantheonsite.io/company-product#overlay-context=company-product%3Fpage%3D1
+http://dev-5961.pantheonsite.io/user#overlay=admin/structure/views/view/product/edit/page
 
 json
-http://dev-com-5961-zhou.pantheonsite.io/company-product-json#overlay-context=company-product%3Fpage%3D1
+http://dev-5961.pantheonsite.io/product-son
 
 php
-http://dev-com-5961-zhou.pantheonsite.io/lesson5/company-product.php
+http://dev-5961.pantheonsite.io/lesson6/company-product.php
